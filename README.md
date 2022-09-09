@@ -12,6 +12,9 @@ Yes, we would need a database to store information related to all the users who 
 #### Which one and what might the schema look like?
 Usually a database can be a Relational Database (RDBMS), with a table containing hashed credentials for the users and a foreign key to other user information in a different table. PostgreSQL is one RDBMS which can do our job to store all the hashed credentials as well as the profile information.
 
+![alt text](https://github.com/iamsharduld/QuickNodeNFTCollection/blob/main/public/db.pbg?raw=true)
+
+
 #### Authentication process flow - Login
 Client will send credentials to the application server over the network
 Application server will check hashed information stored in the database
