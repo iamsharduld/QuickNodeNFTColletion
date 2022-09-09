@@ -1,5 +1,10 @@
 # QuickNodeNFTColletion
 
+### How to run?
+
+`npm run dev`
+
+
 ### Handles user authentication
 
 #### Would you need a database?
